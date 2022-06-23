@@ -5,11 +5,11 @@
     <div class="mb-3">
         <input type="area" class="form-control" id="question" required name="question">
     </div>
-    <button class="btn btn-primary" type="submit">Post Question</button>
+    <button class="btn btn-primary" (click)="callPostAPI()" type="submit">Post Question</button>
 </form>
 <br/>
-<button class="btn btn-primary" type="submit">Show Answers</button>
+<button class="btn btn-primary" (click)="callGetAPI()" type="submit">Show Answers</button>
 <br/>
 <br/>
-<input type="area" class="form-control" id="answers" required name="answer-list">
+<input type="text" class="form-control" id="answers" required name="answer-list">
 </div>

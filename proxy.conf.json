@@ -1,0 +1,11 @@
+{
+    "/api/*": {
+        "target": "https://4qtavkb1kh.execute-api.us-east-1.amazonaws.com/Stage1/answers",
+        "secure": false,
+        "changeOrigin": true,
+        "logLevel": "debug",
+        "pathRewrite": {
+            "^/api": ""
+          }
+    }
+}
